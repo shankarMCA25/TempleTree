@@ -139,7 +139,7 @@
 														<td>'.$result['Emp_id'].
 														'</td>'.
 														'<td>'.$result['Emp_name'].
-														'</td><td><input type="submit" <!--href="dlete.php?id=".$result['Emp_id'].-->"></input><td>
+														'</td><td><a href="Delete.php?Emp_id='.$result['Emp_id'].'">Remove agent</a></input><td>
 														
 													</tr>';
 												
