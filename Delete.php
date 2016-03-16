@@ -1,0 +1,10 @@
+<?php
+  include 'header.php';
+  $databse=new dbconn();
+  $var = $_GET['Emp_id'];
+  $res=$database->update_emp_status("Employee","Emp_Status","'Emp_id'='$var'");
+  if($res)  
+    return true;
+  else
+    return false;
+?>
